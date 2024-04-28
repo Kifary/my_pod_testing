@@ -11,6 +11,8 @@
 		0032BD472BDDD4830015C130 /* my_pod_kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0032BD3C2BDDD4820015C130 /* my_pod_kit.framework */; };
 		0032BD4C2BDDD4830015C130 /* my_pod_kitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0032BD4B2BDDD4830015C130 /* my_pod_kitTests.swift */; };
 		0032BD4D2BDDD4830015C130 /* my_pod_kit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0032BD3F2BDDD4820015C130 /* my_pod_kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0032BD582BDDEE610015C130 /* MyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0032BD562BDDEE610015C130 /* MyView.h */; };
+		0032BD592BDDEE610015C130 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0032BD572BDDEE610015C130 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		0032BD402BDDD4820015C130 /* my_pod_kit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = my_pod_kit.docc; sourceTree = "<group>"; };
 		0032BD462BDDD4830015C130 /* my_pod_kitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = my_pod_kitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0032BD4B2BDDD4830015C130 /* my_pod_kitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_pod_kitTests.swift; sourceTree = "<group>"; };
+		0032BD562BDDEE610015C130 /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		0032BD572BDDEE610015C130 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				0032BD3F2BDDD4820015C130 /* my_pod_kit.h */,
 				0032BD402BDDD4820015C130 /* my_pod_kit.docc */,
+				0032BD562BDDEE610015C130 /* MyView.h */,
+				0032BD572BDDEE610015C130 /* MyView.m */,
 			);
 			path = my_pod_kit;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0032BD4D2BDDD4830015C130 /* my_pod_kit.h in Headers */,
+				0032BD582BDDEE610015C130 /* MyView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0032BD592BDDEE610015C130 /* MyView.m in Sources */,
 				0032BD412BDDD4820015C130 /* my_pod_kit.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
