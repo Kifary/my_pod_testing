@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 			 attention! only testing, don't use
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/my_pod_kit"
+  spec.homepage     = "https://github.com/Kifary/my_pod_testing.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
