@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "my_pod_kit"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "It is my testing kit"
 
   # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
                    DESC
 
   spec.homepage     = "https://github.com/Kifary/my_pod_testing.git"
-  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  spec.screenshots  = "https://media.giphy.com/media/3osxYpRxjzvPOtwfF6/giphy.gif", "https://media.giphy.com/media/xTiTnu6aRsOuB41UNG/giphy.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -39,8 +39,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "SwiftMan" => "zheng.qi.hui@qq.com" }
+  spec.author             = { "Kifary" => "1071066507@qq.com" }
   # Or just: spec.author    = "SwiftMan"
   # spec.authors            = { "SwiftMan" => "zheng.qi.hui@qq.com" }
   # spec.social_media_url   = "https://twitter.com/SwiftMan"
@@ -68,8 +68,8 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-  # spec.osx.deployment_target = "10.7"
+  spec.ios.deployment_target = "17.4"
+  spec.osx.deployment_target = "14.4"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
   # spec.visionos.deployment_target = "1.0"
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/my_pod_kit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Kifary/my_pod_testing.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
